@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(39, 38, 38);
+}
+
+.title-weather-container {
+    text-align: center;
+    padding-right: 16%;
+}
+
+.title-weather {
+    font-family: Oswald;
+    font-size: 75px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: wheat;
+}
+
+.container-input {
+    text-align: center;
+}
+
+.inputfield {
+    width: 35%;
+    height: 50px;
+    border-radius: 20px;
+    border-width: 4px;
+    border-color: black;
+    font-size: 42px;
+    font-family: Oswald;
+    background-color: white;
+}
+
+.weather-city-title {
+    margin-top: 1.5%;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 70px;
+    color: wheat;
+    margin-bottom: 1.5%;
+}
+
+.flex-container-weatheritems {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.weather-temperature {
+    font-family: Oswald;
+    color: wheat;
+    font-size: 55px;
+}
+
+.flex-container-weather-items-left {
+    flex-direction: column;
+    display: flex;
+}
+
+.weather-items-left {
+    font-family: Oswald;
+    color: wheat;
+    font-size: 40px;
+    margin: 0px;
+}
+
+.weather-description {
+    font-family: Oswald;
+    color: wheat;
+    font-size: 40px;
+    text-align: center;
+}
+
+.container-generate-button {
+    display: flex;
+    justify-content: center;
+}
+
+.generate-button {
+    font-family: Oswald;
+    background-color: wheat;
+    cursor: pointer;
+    font-size: 30px;
+    border: none;
+    padding: 22.5px 48px;
+    border-radius: 10px;
+}
+

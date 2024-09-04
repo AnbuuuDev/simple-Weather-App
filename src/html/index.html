@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather App</title>
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        <link href="../stylesheets/style.css" rel="stylesheet">
+        <script src="../js/script.js"></script>
+    </head>
+    <body>
+        <div class="title-weather-container">
+            <p class="title-weather"><b>WEATHER APP</b></p>
+        </div>
+        <div class="container-input">
+            <input type="text" name="city" id ="city" class="inputfield">
+        </div>
+            <p id="weather-city" class="weather-city-title"></p>
+            <div class="flex-container-weatheritems">
+                <p id="temperature" class="weather-temperature"></p>
+                <div class="flex-container-weather-items-left">
+                    <p id="windspeed" class="weather-items-left"></p>
+                    <p id="humidity" class="weather-items-left"></p>
+                    <p id="precipitation" class="weather-items-left"></p>
+                </div>
+            </div>
+            <p id="description" class="weather-description"></p>
+            <div class="container-generate-button">
+                <button onclick="getAll()" class="generate-button">GENERATE</button>
+            </div>
+            
+            
+    </body>
+</html>
